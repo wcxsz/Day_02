@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.XiaZaiActivity">
+    <Button
+        android:id="@+id/bt_ok_xiazai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK下载"
+        />
+    <Button
+        android:id="@+id/bt_retrofit_xiazai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retrofit下载"
+        />
+    <Button
+        android:id="@+id/bt_httpurl_xiazai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="httpurl下载"
+        />
+    <ImageView
+        android:id="@+id/iv_xiazai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
